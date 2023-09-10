@@ -1,0 +1,61 @@
+*,
+::after::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 241, 241);
+}
+
+a {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transition: 0.5s;
+    text-decoration: none;
+    box-shadow: 0px 0 36px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+}
+
+i {
+    transition: 1s;
+}
+
+a:hover i {
+    transform: rotate(360deg);
+}
+
+.social-icon {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter::before {
+    color: #1da1f2;
+}
+
+.fa-instagram::before {
+    color: #c32aa3;
+}
