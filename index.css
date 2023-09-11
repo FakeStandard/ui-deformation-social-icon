@@ -17,7 +17,6 @@ a {
     background-color: #fff;
     margin: 10px;
     padding: 10px;
-    font-size: 40px;
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -30,15 +29,16 @@ a:hover {
     border-radius: 50%;
     width: 75px;
     height: 75px;
-    font-size: 50px;
 }
 
 i {
     transition: 1s;
+    font-size: 40px;
 }
 
 a:hover i {
     transform: rotate(360deg);
+    font-size: 50px;
 }
 
 .social-icon {
